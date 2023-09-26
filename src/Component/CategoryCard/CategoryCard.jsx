@@ -5,21 +5,36 @@ const CategoryCard = ({category}) => {
 
     const {id, img, title, categories, category_bg, card_bg, text_button_bg, description, price  } = category || {}
 
+    const buttonBgStyle ={
+        backgroundColor: card_bg,
+    };
+
+    const textCol ={
+        backgroundColor: category_bg,
+        color:   text_button_bg,
+    }
+
+    const buttonCol ={
+        color:   text_button_bg,
+        
+    }
+
+
     return (
-        <div>
+        <div className="flex items-center justify-center object-center ">
             <NavLink to= {`/category/${id}`} className="block">
-                <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                    <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
-                        <img src={img} alt="" />
+                <div style={buttonBgStyle} className="relative flex w-[312px] flex-col rounded-xl  ">
+                    <div className="relative  h-48 overflow-hidden rounded-xl ">
+                        <img className="object-cover w-full h-full " src={img} alt="" />
                     </div>
-                    <div className="p-6">
-                        <div className="mb-2  ">
+                    <div  className="p-6">
+                        
                            
-                            <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
-                              {categories}
+                            <p  className="  text-sm font-medium  py-1  ">
+                              <span style={textCol} className="px-[10px] py-[4px] rounded-sm">{categories}</span>
                             </p>
-                        </div>
-                        <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                        
+                        <p style={buttonCol} className="block text-xl font-semibold  ">
                            {title}
                         </p>
                     </div>

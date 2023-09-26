@@ -10,7 +10,7 @@ const Header = () => {
             </div>
 
 
-            <div className="">
+            <div className="flex items-center">
                 <nav>
                     <ul>
                         <li className="flex justify-between gap-2">
@@ -56,6 +56,13 @@ const Header = () => {
 
 
         </div>
+
+
+                                    
+
+                                    
+
+
     );
 };
 

@@ -8,6 +8,9 @@ const Donation = () => {
 
     const [noFound,setNoFound] = useState (false)
 
+    const [isShow,setIsShow] = useState(false)
+
+
     useEffect (() =>{
         const items = JSON.parse(localStorage.getItem('test'));
         
@@ -33,15 +36,20 @@ const Donation = () => {
                     noFound ? <p className="h-[80vh] flex justify-center items-center">{noFound}</p> : <div>
 
                     <div className="grid grid-cols-2 gap-5">
-                        {donation.map(category=><CategoryCard key={category.id} category={category}></CategoryCard>)}
+                        {
+                            isShow ? donation.map(category=><CategoryCard key={category.id} category={category}></CategoryCard>) 
+                            : donation.slice(0,4).map(category=><CategoryCard key={category.id} category={category}></CategoryCard>)
+
+                        }
                     </div>
 
 
-                    <button  className="px-5 bg-green-200 block mx-auto">See More</button>
-
+                   {donation.length > 4 &&  <button onClick={() => setIsShow(!isShow)}  className="px-5 bg-green-200 block mx-auto">{isShow ? 'See less': "See more"}</button>
+                        }
 
 
                     </div>
+                    
                 }
             </div>
         );
