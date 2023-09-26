@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/t4jtQL3/Healing-hands.jpg",
+        "title": "Healing Hands",
+        "categories": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "This donation drive aims to provide crucial healthcare resources and services to underserved communities. Your contribution will help bridge gaps in access to medical care, medications, and essential health services. Together, we can extend healing hands to those in need and make a meaningful impact on their well-being.",
+        "price": 290
+    },
+   
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/QH97tX6/Empowering-Minds.jpg",
+        "title": "Empowering Minds",
+        "categories": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "Join us in our mission to provide quality education and equal opportunities for all. Your generous donations will support initiatives that bridge gaps in access to educational resources, technology, and mentorship. Together, we can empower young minds to reach their full potential and build a brighter future.",
+        "price": 290
+    },
+   
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/5xyrDD4/Threads-of-Hope.jpg",
+        "title": "Threads of Hope",
+        "categories": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#79C23F",
+        "description": "Join us in making a positive impact on the lives of individuals and families by donating gently used clothing. Your contributions will provide warmth, comfort, and dignity to those facing challenging circumstances. Together, we can weave threads of hope and support a brighter tomorrow.",
+        "price": 290
+    },
+   
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/sFdrNv6/harvest-of-hope.jpg",
+        "title": "Harvest of Hope",
+        "categories": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#FEEAE4",
+        "text_button_bg": "#F87147",
+        "description": "Join us in our mission to provide nutritious meals to individuals and families facing food insecurity. Your generous donations will help us gather and distribute essential food items, ensuring that no one goes hungry. Together, we can cultivate a harvest of hope for those in need.",
+        "price": 290
+    },
+   
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/XZwM6BM/nourish-every-child.jpg",
+        "title": "Nourish Every Child",
+        "categories": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#FEEAE4",
+        "text_button_bg": "#F87147",
+        "description": "Support our program to provide nutritious meals to school-aged children in underserved communities. Your contributions will help fuel young minds, enabling them to focus on learning and thrive academically. Together, let's ensure that every child has access to the nourishment they need for a brighter future.",
+        "price": 290
+    },
+   
+   
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/XZGDTJz/Dress-for-Success.jpg",
+        "title": "Dress for Success",
+        "categories": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#79C23F",
+        "description": "Support our initiative to provide professional attire to individuals seeking employment opportunities. Your donations will help boost confidence and enable individuals to make a positive impression in the workplace. Together, let's empower individuals to achieve their career goals and reach for success.",
+        "price": 290
+    },
+   
+   
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/KLgTRj1/Books-for-Bright-Futures.jpg",
+        "title": "Books for Bright Futures",
+        "categories": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "Help us spread the joy of learning by donating books and educational materials to children in need. Your contribution will create opportunities for exploration, imagination, and knowledge acquisition. Let's inspire a lifelong love for learning and empower children to excel academically.",
+        "price": 290
+    },
+   
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/dQ0p7yv/nutritious-food.jpg",
+        "title": "Nourishing Lives",
+        "categories": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "Join us in our mission to ensure that every individual has access to nutritious food and essential healthcare. Your generous donations will fund programs that provide nourishment, medical care, and wellness resources to vulnerable populations. Together, we can make a positive difference in the health and vitality of communities in need.",
+        "price": 290
+    },
+   
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/QY3cLxY/pexels-karolina-grabowska-4386467.jpg",
+        "title": "Hearts for Health",
+        "categories": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "Support our initiative to promote heart health and combat cardiovascular diseases. Your donations will fund awareness campaigns, screenings, and education programs aimed at preventing and managing heart-related conditions. Together, let's build a healthier future for individuals and families by prioritizing cardiovascular wellness.",
+        "price": 290
+    },
+   
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/xgWyxZK/Scholarships-for-Success.jpg",
+        "title": "Scholarships for Success",
+        "categories": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "Support our scholarship program aimed at providing deserving students with access to higher education. Your donations will help alleviate financial burdens and open doors to academic excellence and career opportunities. Together, let's invest in the next generation of leaders and innovators.",
+        "price": 290
+    },
+   
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/swBkS66/Warmth-for-Winter.jpg",
+        "title": "Warmth for Winter",
+        "categories": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#79C23F",
+        "description": "Help us keep communities warm during the colder months by donating winter clothing items. Your contributions will provide essential protection against the elements for those in need. Together, let's share the warmth and ensure that everyone has access to the clothing they need to stay comfortable and safe.",
+        "price": 290
+    },
+   
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/37c6nBr/food-for-all.jpg",
+        "title": "Food for All",
+        "categories": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#FEEAE4",
+        "text_button_bg": "#F87147",
+        "description": "Help us address food insecurity and build resilient communities by donating non-perishable food items. Your contributions will support local food banks and pantries, ensuring that families have access to essential nutrition. Together, let's make a meaningful impact on the well-being of our neighbors in need.",
+        "price": 290
+    }
+   
+
+    
+]
