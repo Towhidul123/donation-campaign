@@ -1,3 +1,4 @@
+import swal from "sweetalert";
 
 
 const DisplayCard = ({ category }) => {
@@ -19,7 +20,7 @@ const DisplayCard = ({ category }) => {
         if(!items){
             addedItems.push(category)
             localStorage.setItem('test',JSON.stringify(addedItems))
-            alert('products added')
+            swal("Good job!", "Products added!", "success");
         }
 
         else{
@@ -29,12 +30,12 @@ const DisplayCard = ({ category }) => {
             if(!ifExist){
                 addedItems.push(...items,category)
                 localStorage.setItem('test',JSON.stringify(addedItems))
-                alert('products added')
+                swal("Good job!", "Products added!", "success");
             }
 
            
             else{
-                alert('already exist')
+                swal("Oops!", "Product already exists!", "error");
             }
         }
        

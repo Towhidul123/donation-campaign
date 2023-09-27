@@ -12,12 +12,12 @@ const Statistics = () => {
 
         return (
             <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-                {`${(percent * 100).toFixed(0)}%`}
+                {`${(percent * 100).toFixed(1)}%`}
             </text>
         );
     };
 
-    const [stats, setStats] = useState(12); 
+    const [stats, setStats] = useState(0); 
 
     useEffect(() => {
         const items = JSON.parse(localStorage.getItem('test'));

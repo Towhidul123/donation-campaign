@@ -13,7 +13,7 @@ const Header = () => {
             <div className="flex items-center">
                 <nav>
                     <ul>
-                        <li className="flex justify-between gap-2">
+                        <li className="flex flex-col md:flex-row md:flex md:justify-between md:gap-2 lg:flex-row lg:flex lg:justify-between lg:gap-2">
                             <NavLink
                                 to="/"
                                 className={({ isActive, isPending }) =>
