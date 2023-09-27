@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 
+
 const Header = () => {
     return (
         <div className=" flex justify-between py-14 px-5 md:px-[100px] lg:px-[150px] bg-transparent  ">
 
             <div>
-                <img src="../../../donation-campaign-main/Resources/Logo.png" alt="" />
+                <img src="/Logo.png" alt="" />
             </div>
 
 
